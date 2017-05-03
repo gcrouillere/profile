@@ -13,43 +13,52 @@
   </head>
   <body>
     <!-- Your content -->
-    <div class="container">
-      <div class="card">
-        <img id="avatar" src="avatar.jpg">
-        <h1>Guillaume Crouillère</h1>
-        <h2>Unemployed @PoleEmploi</h2>
-        <p>So lazy I stopped working. Will benefit from social assitance from now on.</p>
-      </div>
-      <div class="card social_box">
-        <ul>
-          <li><a href="https://twitter.com/realdonaldtrump" target="_blank"><i class="fa fa-facebook"></i> <p class="social">twitter</p></a></li>
-          <li><a href="https://www.facebook.com/jongnam.kim.507"t arget="_blank"><i class="fa fa-twitter"></i> <p class="social"> facebook</p></a></li>
-          <li><a href="https://fr.linkedin.com/in/serge-dassault-7ab784133" target="_blank"><i class="fa fa-linkedin"></i> <p class="social">linkedin</p></a></li>
-        </ul>
-      </div>
-      <div class="card">
-        <h2>My Favorites Movies</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td><img src="http://www.nanarland.com/Chroniques/3supermendanslajungle/jaquette.jpg"></img></td>
-              <td>
-                <h3>3 supermen dans la jungle</h3>
-                <p>A great movie</p>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="http://www.nanarland.com/Chroniques/piegeagrandevitesse/jaquette.jpg"></img></td>
-              <td>
-                <h3>Piège à grande vitesse</h3>
-                <p>An awesome movie</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="card">
-        <h2>About this page</h2>Nothing to say about this page
+    <div id="sidebar">
+      <ul>
+        <li><a href="#page-content"><i class="fa fa-info-circle" aria-hidden="true"></i> Info</a></li>
+        <li><a href="#2"><i class="fa fa-film" aria-hidden="true"></i> Movies</a></li>
+        <li><a href="#3"><i class="fa fa-question-circle" aria-hidden="true"></i> Help</a></li>
+      </ul>
+    </div>
+    <div id="page-content">
+      <div class="container">
+        <div class="card">
+          <img id="avatar" src="avatar.jpg">
+          <h1>Guillaume Crouillère</h1>
+          <h2>Unemployed @PoleEmploi</h2>
+          <p>So lazy I stopped working. Will benefit from social assitance from now on.</p>
+        </div>
+        <div class="card social_box">
+          <ul>
+            <li><a href="https://twitter.com/realdonaldtrump" target="_blank"><i class="fa fa-facebook"></i> <p class="social">twitter</p></a></li>
+            <li><a href="https://www.facebook.com/jongnam.kim.507"t arget="_blank"><i class="fa fa-twitter"></i> <p class="social"> facebook</p></a></li>
+            <li><a href="https://fr.linkedin.com/in/serge-dassault-7ab784133" target="_blank"><i class="fa fa-linkedin"></i> <p class="social">linkedin</p></a></li>
+          </ul>
+        </div>
+        <div class="card" id="2">
+          <h2>My Favorites Movies</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td><img src="http://www.nanarland.com/Chroniques/3supermendanslajungle/jaquette.jpg"></img></td>
+                <td>
+                  <h3>3 supermen dans la jungle</h3>
+                  <p>A great movie</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="http://www.nanarland.com/Chroniques/piegeagrandevitesse/jaquette.jpg"></img></td>
+                <td>
+                  <h3>Piège à grande vitesse</h3>
+                  <p>An awesome movie</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card" id="3">
+          <h2>About this page</h2>Nothing to say about this page
+        </div>
       </div>
     </div>
   </body>
